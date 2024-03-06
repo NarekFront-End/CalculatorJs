@@ -1,0 +1,14 @@
+#calculator{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 0fr);
+    margin-top: 10px;
+}
+button{
+    font-size: 20px;
+    cursor: pointer;
+}
+input{
+    height: 30px;
+    text-align: right;
+}
